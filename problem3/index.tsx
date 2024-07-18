@@ -18,7 +18,7 @@ interface WalletBalance {
     const { children, ...rest } = props;
     const balances = useWalletBalances();
     const prices = usePrices();
-    //add callback and type for blockchain
+    //add useCallback and type for blockchain
     const getPriority = useCallback((blockchain: string): number => {
       switch (blockchain) {
         case 'Osmosis':
