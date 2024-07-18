@@ -1,0 +1,75 @@
+.App {
+  background-color: rgb(240, 247, 250);
+  height: 100vh;
+}
+.form-custom {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(240, 247, 250);
+}
+.form-container {
+  position: relative;
+  margin-top: 24px;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: -2px 1px 21px -6px rgba(77, 77, 77, 0.75);
+  -webkit-box-shadow: -2px 1px 21px -6px rgba(77, 77, 77, 0.75);
+  -moz-box-shadow: -2px 1px 21px -6px rgba(77, 77, 77, 0.75);
+}
+.form-container .rs-loader-backdrop{
+ z-index: 10 !important;
+}
+.form-container .rs-loader-spin{
+ z-index: 10 !important;
+}
+.form-container .rs-loader-content{
+ z-index: 10 !important;
+}
+.header__app {
+  text-align: center;
+}
+.title {
+  color: #1f2261;
+  font-weight: 600;
+  font-size: 32px;
+}
+.text {
+  margin-top: 20px;
+  display: block;
+  color: #808080;
+}
+.flex-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.flex-item .rs-form-group {
+  margin-bottom: 0 !important;
+}
+.item-picker{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.value-converted-title{
+ color: #A1A1A1;
+}
+.value-converted{
+ font-size: 18px;
+ font-weight: 600;
+}
+.container-rate{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.item-flex{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
